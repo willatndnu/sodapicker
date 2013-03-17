@@ -7,13 +7,17 @@
 //
 
 #import "TMAppDelegate.h"
+#import "TMSodaPickerViewController.h"
 
 @implementation TMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    TMSodaPickerViewController *sodaPickerVC = [[TMSodaPickerViewController alloc] init];
+    self.window.rootViewController = sodaPickerVC;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

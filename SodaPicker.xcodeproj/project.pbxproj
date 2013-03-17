@@ -16,6 +16,11 @@
 		7E95EEB816F52539009ED9FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EEB716F52539009ED9FA /* Default.png */; };
 		7E95EEBA16F52539009ED9FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EEB916F52539009ED9FA /* Default@2x.png */; };
 		7E95EEBC16F52539009ED9FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EEBB16F52539009ED9FA /* Default-568h@2x.png */; };
+		7E95EEC516F52584009ED9FA /* TMSodaPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95EEC316F52584009ED9FA /* TMSodaPickerViewController.m */; };
+		7E95EEC616F52584009ED9FA /* TMSodaPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EEC416F52584009ED9FA /* TMSodaPickerViewController.xib */; };
+		7E95EEC916F5266E009ED9FA /* Soda.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E95EEC816F5266E009ED9FA /* Soda.m */; };
+		7E95EECD16F52900009ED9FA /* pepsi.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EECB16F52900009ED9FA /* pepsi.png */; };
+		7E95EECE16F52900009ED9FA /* pepsi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E95EECC16F52900009ED9FA /* pepsi@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,13 @@
 		7E95EEB716F52539009ED9FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7E95EEB916F52539009ED9FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7E95EEBB16F52539009ED9FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7E95EEC216F52584009ED9FA /* TMSodaPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSodaPickerViewController.h; sourceTree = "<group>"; };
+		7E95EEC316F52584009ED9FA /* TMSodaPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSodaPickerViewController.m; sourceTree = "<group>"; };
+		7E95EEC416F52584009ED9FA /* TMSodaPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TMSodaPickerViewController.xib; sourceTree = "<group>"; };
+		7E95EEC716F5266E009ED9FA /* Soda.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Soda.h; sourceTree = "<group>"; };
+		7E95EEC816F5266E009ED9FA /* Soda.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soda.m; sourceTree = "<group>"; };
+		7E95EECB16F52900009ED9FA /* pepsi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pepsi.png; sourceTree = "<group>"; };
+		7E95EECC16F52900009ED9FA /* pepsi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pepsi@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +90,14 @@
 		7E95EEAB16F52539009ED9FA /* SodaPicker */ = {
 			isa = PBXGroup;
 			children = (
+				7E95EECA16F528F9009ED9FA /* Assets */,
 				7E95EEB416F52539009ED9FA /* TMAppDelegate.h */,
 				7E95EEB516F52539009ED9FA /* TMAppDelegate.m */,
+				7E95EEC716F5266E009ED9FA /* Soda.h */,
+				7E95EEC816F5266E009ED9FA /* Soda.m */,
+				7E95EEC216F52584009ED9FA /* TMSodaPickerViewController.h */,
+				7E95EEC316F52584009ED9FA /* TMSodaPickerViewController.m */,
+				7E95EEC416F52584009ED9FA /* TMSodaPickerViewController.xib */,
 				7E95EEAC16F52539009ED9FA /* Supporting Files */,
 			);
 			path = SodaPicker;
@@ -97,6 +115,15 @@
 				7E95EEBB16F52539009ED9FA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E95EECA16F528F9009ED9FA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E95EECB16F52900009ED9FA /* pepsi.png */,
+				7E95EECC16F52900009ED9FA /* pepsi@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +182,9 @@
 				7E95EEB816F52539009ED9FA /* Default.png in Resources */,
 				7E95EEBA16F52539009ED9FA /* Default@2x.png in Resources */,
 				7E95EEBC16F52539009ED9FA /* Default-568h@2x.png in Resources */,
+				7E95EEC616F52584009ED9FA /* TMSodaPickerViewController.xib in Resources */,
+				7E95EECD16F52900009ED9FA /* pepsi.png in Resources */,
+				7E95EECE16F52900009ED9FA /* pepsi@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +197,8 @@
 			files = (
 				7E95EEB216F52539009ED9FA /* main.m in Sources */,
 				7E95EEB616F52539009ED9FA /* TMAppDelegate.m in Sources */,
+				7E95EEC516F52584009ED9FA /* TMSodaPickerViewController.m in Sources */,
+				7E95EEC916F5266E009ED9FA /* Soda.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
